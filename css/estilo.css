@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Montserrat&display=swap');
+
+body, h1, h4, ul, li{
+  margin: 0;
+  padding: 0;
+
+}
+
+/* SELECTORES DE ETIQUETAS HTML */
+body {
+  background-color: yellow;
+}
+h1 {
+  font-family: 'Cinzel Decorative';
+  font-size: 22px;
+}
+
+/* SELECTORES PERSONALIZADOS */
+.contenedor {
+  width: 700px;
+  background-color: rgba(212, 182, 11, 0.644);
+  margin: 0 auto;
+}
+
+
+.cabeza {
+  color: white;
+  background-color: black;
+  padding: 20px;
+}
+.cuerpo {
+  padding: 20px;
+}
+.pie {
+  color: white;
+  background-color: black;
+  padding: 20px;
+  text-align: center;
+}
+
+.vinculo:hover {
+  color: rgb(75, 60, 60);
+  text-decoration: none;
+}
+
+.item-m {
+  display: inline-block;
+  padding: 10px;
+}
+.item-m a {
+  color: red;
+  text-decoration: none;
+  padding: 10px;
+}
+.item-m a:hover {
+  color: white;
+  background-color: red;
+  text-decoration: none;
+  padding: 10px;
+}
